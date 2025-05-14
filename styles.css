@@ -83,6 +83,11 @@
     margin: 0 0 12px;
   }
   
+.error-message {
+  color: red;
+  font-size: 40px;
+}
+
   .login-card > h3 {
     color: rgb(255 255 255 / 38%);
     margin: 0 0 48px;
