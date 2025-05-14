@@ -1,3 +1,20 @@
+const users = [                    
+{
+    username:'admin',
+    password:'admin123',
+    role:'manage'
+},
+{
+    username:'student',
+    password:'student123',
+    role:'study'
+},
+{
+    username:'viewer',
+    password:'viewer123',
+    role:'viewer'
+}
+]
 
 
 
@@ -19,12 +36,12 @@ loginForm.addEventListener('submit', function(e){
 
 
 
-    if (!username || !password){
-    errorContainer.textContent = "Please fill in all fields" ;
+    // if (!username || !password){
+    // errorContainer.textContent = "Please fill in all fields" ;
 
-    } else{
-        errorContainer.textContent = '';
-    }
+    // } else{
+    //     errorContainer.textContent = '';
+    // }
 
     
 })
